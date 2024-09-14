@@ -10,4 +10,4 @@ faturamento_estados = {
 faturamento_total = sum(faturamento_estados.values())
 
 for estado, faturamento in faturamento_estados.items():
-    print(f"{estado}: {faturamento / faturamento_total:.2%} do faturamento total.")
+    print(f"{estado}: {faturamento / faturamento_total:.0%} do faturamento total.")

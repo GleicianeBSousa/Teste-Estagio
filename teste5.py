@@ -1,5 +1,5 @@
 
 original = input('Informe algo para inverter a ordem: ')
-invertida = original[::-1]
+invertida = ''.join(reversed(original))
 print(f'Caracteres original: {original}')
 print(f'Caracteres invertidos: {invertida}')
